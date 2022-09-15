@@ -16,8 +16,8 @@ class CarService implements IService<ICar> {
   }
 
   public async read(): Promise<ICar[]> {
-    const result = await this._car.read();
-    return result; 
+    const allCars = await this._car.read();
+    return allCars; 
   }
 
   public async readOne(_id:string):Promise<ICar | null> {
