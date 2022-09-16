@@ -8,7 +8,8 @@ const errorHandler: ErrorRequestHandler = (
   res,
   _next,
 ) => {
-  if (err instanceof ZodError) { 
+  console.log(err);
+  if (err instanceof ZodError) {
     return res.status(400).json({ message: err.issues });
   }
 
