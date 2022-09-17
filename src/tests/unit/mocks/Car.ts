@@ -21,13 +21,13 @@ const carMockWithId:ICar & { _id:string } = {
 
 const carMockForChange= {
   _id: "4edd40c86762e0fb12000003",
-  buyValue: 9000,
-  color: "silver",
-  doorsQty: 4,
-  model: "Audi A4 turbo",
+  model: "Fiat Uno",
+  year: 1964,
+  color: "blue",
+  buyValue: 3500,
   seatsQty: 4,
+  doorsQty: 4,
   status: true,
-  year: 2021,
   __v: 0
 }
 
