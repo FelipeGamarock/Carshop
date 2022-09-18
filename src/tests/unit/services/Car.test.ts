@@ -3,7 +3,7 @@ import sinon from 'sinon';
 import { ZodError } from 'zod';
 import { ErrorTypes } from '../../../errors/catalog';
 import { Model } from 'mongoose';
-import  CarModel from '../../../models/Car';
+import CarModel from '../../../models/Car';
 import CarService from '../../../services/Car';
 import { carMock, carMockWithId, carMockForChange } from '../mocks/Car';
 import { ICar } from '../../../interfaces/ICar';
